@@ -1,0 +1,105 @@
+*{
+    background-color: rgb(185, 185, 185);
+}
+
+hr.new4 {
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 5px;
+  }
+
+.hasil{
+    padding: 0px 40px 10px 40px;
+    color:black;
+}
+
+.hasil .atas{
+    padding-top: 4px;
+    text-align: center;
+    font-size: 23px;
+}
+
+pre {
+    background-color: rgb(38, 38, 38);
+    color: white;
+    font-size: 30px;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+.hasil .tengah{
+    font-size: 20px;
+}
+
+.hasil .bawah{
+    font-size: 20px;
+}
+
+.terima{
+    margin-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.h5{
+    margin-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(64, 64, 64);
+}
+
+@media screen and (max-width:1115px){
+    .terima{
+        font-size: 25px;
+    }
+
+    .hasil .atas{
+        font-size: 20px;
+    }
+
+    .hasil .tengah{
+        font-size: 17px;
+    }
+
+    pre {
+        font-size: 13px;
+    }
+
+    .hasil .bawah{
+        font-size: 12px;
+    }
+
+    button {
+        font-size: 10px;
+        padding: 4px 7px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hasil{
+        padding: 0px 10px 10px 10px;
+    }
+    
+    .terima{
+        font-size: 20px;
+    }
+
+    .hasil .tengah{
+        font-size: 14px;
+    }
+
+    pre {
+        font-size: 9px;
+    }
+
+    .hasil .bawah{
+        font-size: 10px;
+    }
+
+    button {
+        font-size: 8px;
+        padding: 3px 7px;
+    }
+}
